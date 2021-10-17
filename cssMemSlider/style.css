@@ -50,7 +50,7 @@
 .wrapper label {
     cursor: pointer;
     display: inline-block;
-    margin: 40px 12px 0 40px;
+    margin: 37px 26px 0 27px;
     border-radius: 50%;
     transition: background ease-in-out .5s;
 }
@@ -197,9 +197,8 @@ img {
         padding-left: 0;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
     .slides {
-        height: 18rem;
         width: 100%;
     }
     img {
@@ -212,8 +211,5 @@ img {
     }
     p{
         height: 5rem;
-    }
-    .wrapper label {
-        margin: 26px 27px 0 27px;
     }
 }
