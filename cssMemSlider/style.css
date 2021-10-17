@@ -141,9 +141,7 @@ img {
         height: 5rem;
         margin: 0;
     }
-
 }
-
 @media (max-width: 992px) {
     .text {
         width: 100%;
@@ -186,20 +184,19 @@ img {
     }
     .text {
         justify-content: center;
-
     }
     .points {
         justify-content: center;
     }
     .slides {
-        height: 24rem;
+        height: auto;
         width: 100%;
     }
     .slider-text{
         align-items: baseline;
+        padding-left: 0;
     }
 }
-
 @media (max-width: 420px) {
     .slides {
         height: 18rem;
@@ -211,5 +208,12 @@ img {
     .slider-text {
         font-size: 30px;
         letter-spacing: 2px;
+        height: 10rem
+    }
+    p{
+        height: 5rem;
+    }
+    .wrapper label {
+        margin: 26px 27px 0 27px;
     }
 }
